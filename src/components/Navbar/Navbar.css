@@ -1,0 +1,110 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 75rem; 
+    margin: 1.25rem auto; 
+    padding: 0 1.25rem; 
+    text-decoration: none;
+}
+.navbar img {
+    max-width: 12rem; 
+    cursor: pointer;
+    transition: 0.5s ease;
+    margin-right: 1.5rem;
+}
+.navbar img:hover {
+    transform: scale(1.05);
+}
+.nav-menu {
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    list-style: none;
+    gap: 3rem; 
+    margin-left: auto;
+    margin-right: 2.5rem; 
+    transition: right 0.5s ease-in-out;
+    position: relative;
+}
+.nav-item {
+    flex-wrap: nowrap;
+    text-decoration: none;
+    font-size: 1.375rem; 
+    color: #ebebeb;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.nav-item:hover {
+    transform: scale(1.1);
+}
+.nav-menu a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.5s ease;
+}
+.nav-menu a:hover {
+    color: #b923e1;
+}
+.menu-open {
+    display: none;
+    width: 3rem;
+    height: 3rem;
+}
+.menu-close {
+    display: none;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+/* Small tablet / large phone / Mobile */
+@media (max-width: 768px) {
+    .menu-open {
+        display: block;
+        position: fixed;
+        right: 1.25rem; 
+        top: 1.25rem;
+        z-index: 3;
+        opacity: 1;
+        transition: opacity 0.5s ease-in-out;
+        pointer-events: auto;
+    }
+    .menu-open.hidden {
+        opacity: 0;
+        pointer-events: none;
+    }
+    .nav-menu {
+        position: fixed;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-right: 0;
+        top: 0;
+        right: -100%;
+        background-color: #2b192b;
+        width: 18rem; 
+        height: 100%;
+        padding-top: 3.75rem; 
+        gap: 1.875rem; 
+        transition: right 0.3s ease-in-out;
+        z-index: 2;
+    }
+    .nav-menu.active {
+        right: 0;
+    }
+    .nav-menu.hidden {
+        right: -100%;
+    }
+    .nav-menu.active ~ .menu-open {
+        display: none;
+    }
+    .menu-close {
+        display: block;
+        position: absolute;
+        top: 1.5rem; 
+        right: 1.5rem; 
+        z-index: 3;
+    }
+    .nav-item {
+        margin-left: 1.25rem; 
+    }
+}

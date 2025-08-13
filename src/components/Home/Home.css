@@ -1,0 +1,133 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5rem;
+    max-width: 75rem; 
+    margin: 3.75rem auto; 
+    padding: 0 1.25rem; 
+}
+.home-img {
+    margin-top: 1rem;
+    width: 15rem;  
+    height: 15rem; 
+    object-fit: cover;
+    border-radius: 50%;
+    border: 0.125rem solid #b923e1;
+    box-shadow:
+        0 0 10px rgba(185, 35, 225, 0.7),  
+        0 0 20px rgba(185, 35, 225, 0.6),  
+        0 0 40px rgba(185, 35, 225, 0.5); 
+}
+.home-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem; 
+    width: 90%;
+}
+.home p {
+    font-size: 1.5rem; 
+    text-align: center;
+    color: #ebebeb;
+}
+.home-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem; 
+    font-weight: 500;
+}
+.home-connect, 
+.home-resume {
+    display: inline-block;  
+}
+.home-connect a, 
+.home-resume a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.375rem; 
+    color: #b923e1;
+    padding: 1.25rem 2.5rem; 
+    border-radius: 3.125rem; 
+    border: 0.125rem solid #b923e1; 
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+.home-connect a:hover, 
+.home-resume a:hover {
+    color: #b923e1;
+    border-color: transparent;
+    box-shadow:
+      0 0 10px rgba(185, 35, 225, 0.7),  
+      0 0 20px rgba(185, 35, 225, 0.6),   
+      0 0 40px rgba(185, 35, 225, 0.5); 
+}
+.home-connect:hover, 
+.home-resume:hover {
+    transform: scale(1.05);
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .home-title {
+    font-size: 3rem; 
+    width: 90%;
+  }
+  .home p {
+    width: 80%;
+  }
+  .home-action {
+    flex-direction: column;
+    gap: 1.25rem; 
+  }
+  .home-connect, 
+  .home-resume {
+    width: 100%;
+    text-align: center;
+    padding: 1.25rem; 
+  }
+}
+
+/* Small tablet / large phone */
+@media (max-width: 768px) {
+  .home {
+    padding: 0 1.25rem; 
+  }
+  .home p {
+    font-size: 1.25rem; 
+  }
+  .home-action {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.9375rem; 
+  }
+  .home-connect, 
+  .home-resume {
+    width: 100%;
+    max-width: 18.75rem; 
+    padding: 1.25rem; 
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .home-title {
+    font-size: 2.5rem; 
+    width: 100%;
+  }
+  .home p {
+    width: 90%;
+    font-size: 1.125rem; 
+    line-height: 1.875rem; 
+  }
+  .home-action {
+    gap: 0.625rem; 
+  }
+  .home-connect, 
+  .home-resume {
+    padding: 1.125rem; 
+    max-width: 17.5rem; 
+  }
+}
