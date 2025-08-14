@@ -15,8 +15,7 @@ const portfolio_data = [
     {
         title: "Portfolio Website",
         w_img: portfolio_site_img,
-        // link: "https://github.com/jebbujebbu/portfolio_site"
-        link: "https://github.com/jebbujebbu"
+        link: "https://github.com/jebbujebbu/portfolio_site"
     },
     {
         title: "Task Manager",

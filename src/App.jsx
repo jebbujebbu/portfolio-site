@@ -8,11 +8,13 @@ import Portfolio from './components/Portfolio/Portfolio'
 // import Experience from './components/Experience/Experience'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
+import ScrollToTop from './components/ScrollToTop'
 
 const App = () => {
   return (
     <Router>
       <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
