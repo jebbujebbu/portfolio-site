@@ -130,4 +130,7 @@
     padding: 1.125rem; 
     max-width: 17.5rem; 
   }
+  .home-connect a {
+    padding: 1.25rem 2rem; 
+  }
 }
