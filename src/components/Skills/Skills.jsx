@@ -22,18 +22,18 @@ const Skills = () => {
       <div className="skills-list">
         {/* Technical Skills Section */}
         <section className="skill-section">
-          <h2>Technical Skills</h2>
+          <h2>Technical Skills I’m Learning</h2>
           <ul>
-            <li><span>Programming Languages:</span> Python, C#, JavaScript, Node.js, React, .NET</li>
+            <li><span>Programming Languages:</span> C#, JavaScript, Node.js, React, .NET, Python</li>
             <li><span>Web Development:</span> HTML, CSS, REST APIs, Responsive Design</li>
             <li><span>Mobile Development:</span> Android</li>
             <li><span>Databases & Cloud:</span> MySQL, Azure, Azure DevOps</li>
             <li><span>System Administration:</span> Windows Server (Active Directory), Linux OS</li>
             <li><span>Networking Basics:</span> TCP/IP, Routing</li>
             <li><span>Version Control:</span> Git (branching and collaboration workflows)</li>
-            <li><span>Testing & Quality Assurance:</span> Unit testing, Continuous Integration/Continuous Deployment (CI/CD)</li>
-            <li><span>Security & Tools:</span> Secure software Development, Cybersecurity</li>
-            <li><span>Other:</span> Algorithms, Software Project Management, Artificial Intelligence</li>
+            <li><span>Testing & Quality Assurance:</span> Unit Testing, Continuous Integration/Continuous Deployment (CI/CD)</li>
+            <li><span>Security & Tools:</span> Secure Software Development, Cybersecurity</li>
+            <li><span>Other:</span> Software Project Management, Algorithms, AI, IoT, Big Data, Business Intelligence</li>
           </ul>
         </section>
         {/* Education Section */}
@@ -41,6 +41,7 @@ const Skills = () => {
           <h2>Education</h2>
           <ul>
             <li>Bachelor's Degree in Information Technology (expected August 2026)</li>
+            <li>Pedagogical Studies for Teachers (2018)</li>
             <li>Master of Arts, Finnish Language (2014)</li>
           </ul>
         </section>

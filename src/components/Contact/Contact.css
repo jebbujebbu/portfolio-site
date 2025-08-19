@@ -135,6 +135,12 @@
     .contact-right {
         align-items: center;
         text-align: center;
+        width: 100%;
+    }
+    .contact-right input,
+    .contact-right textarea {
+        width: 90%;        
+        max-width: 500px;
     }
     .contact-left p {
         font-size: 1.125rem;
@@ -142,11 +148,6 @@
     }
     .contact-details {
         align-items: center;
-        font-size: 1.25rem; 
-
-    }
-    .contact-detail {
-        justify-content: center;
     }
 }
 
@@ -159,9 +160,6 @@
         font-size: 1rem; 
         line-height: 1.625rem; 
     }
-    .contact-details {
-        font-size: 1.125rem; 
-    }
     .contact-submit {
         padding: 1rem 2.5rem; 
         font-size: 1.125rem; 
@@ -173,6 +171,9 @@
     .contact-right textarea {
         font-size: 1rem; 
         padding: 0.9375rem; 
+    }
+    .contact-details {
+        align-items: start;
     }
     .contact-detail {
         gap: 0.75rem;
