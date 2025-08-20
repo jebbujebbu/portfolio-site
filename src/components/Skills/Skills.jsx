@@ -24,16 +24,16 @@ const Skills = () => {
         <section className="skill-section">
           <h2>Technical Skills I’m Learning</h2>
           <ul>
-            <li><span>Programming Languages:</span> C#, JavaScript, Node.js, React, .NET, Python</li>
-            <li><span>Web Development:</span> HTML, CSS, REST APIs, Responsive Design</li>
+            <li><span>Programming Languages:</span> Python, C#, JavaScript, SQL</li>
+            <li><span>Web Development:</span> HTML, CSS, React, Node.js, .NET, REST APIs, Responsive Design</li>
             <li><span>Mobile Development:</span> Android</li>
             <li><span>Databases & Cloud:</span> MySQL, Azure, Azure DevOps</li>
             <li><span>System Administration:</span> Windows Server (Active Directory), Linux OS</li>
-            <li><span>Networking Basics:</span> TCP/IP, Routing</li>
-            <li><span>Version Control:</span> Git (branching and collaboration workflows)</li>
-            <li><span>Testing & Quality Assurance:</span> Unit Testing, Continuous Integration/Continuous Deployment (CI/CD)</li>
+            <li><span>Networking:</span> TCP/IP, Routing</li>
+            <li><span>Version Control:</span> Git, GitHub</li>
+            <li><span>Testing & Quality Assurance:</span> Unit Testing, CI/CD</li>
             <li><span>Security & Tools:</span> Secure Software Development, Cybersecurity</li>
-            <li><span>Other:</span> Software Project Management, Algorithms, AI, IoT, Big Data, Business Intelligence</li>
+            <li><span>Other:</span> Software Project Management, Algorithms, IoT, Big Data, Business Intelligence, Intro to AI/ML</li>
           </ul>
         </section>
         {/* Education Section */}
