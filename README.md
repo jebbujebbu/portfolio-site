@@ -15,8 +15,8 @@ A personal portfolio website built with Vite + React to showcase my projects, sk
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/jebbujebbu/portfolio_site.git
-cd portfolio_site
+git clone https://github.com/jebbujebbu/portfolio-site.git
+cd portfolio-site
 ```
 
 2. Install dependencies:
