@@ -53,7 +53,7 @@ const Navbar = () => {
       {/* Navigation menu */}
       <ul ref={menuRef} className={`nav-menu ${menuOpen ? 'active' : ''} ${hidden ? 'hidden' : ''}`}>
         {/* Close menu button */}
-        <img src={'/menu_close_icon.png'} alt='Close Menu' className='menu-close' onClick={closeMenu}/>
+        <img src={'/menu_close_icon.svg'} alt='Close Menu' className='menu-close' onClick={closeMenu}/>
         {/* Navigation links */}
         <li className="nav-item"><Link to="/" onClick={closeMenu}>Home</Link></li>
         <li className="nav-item"><Link to="/about" onClick={closeMenu}>About</Link></li>
@@ -62,7 +62,7 @@ const Navbar = () => {
         <li className="nav-item"><Link to="/contact" onClick={closeMenu}>Contact</Link></li>
       </ul>
       {/* Hamburger menu icon (only shows when menu is closed) */}
-      <img src={'/menu_open_icon.png'} alt='Open Menu' className={`menu-open ${!showOpenIcon ? 'hidden' : ''}`} onClick={openMenu}/>
+      <img src={'/menu_open_icon.svg'} alt='Open Menu' className={`menu-open ${!showOpenIcon ? 'hidden' : ''}`} onClick={openMenu}/>
     </div>
   )
 }
