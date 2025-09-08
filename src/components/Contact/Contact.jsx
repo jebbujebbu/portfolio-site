@@ -2,9 +2,6 @@ import React, { useRef }  from 'react'
 // Import EmailJS library for sending emails without a backend
 import emailjs from '@emailjs/browser';
 import './Contact.css'
-import mail_icon from '../../assets/mail_icon.svg'
-import linkedin_icon from '../../assets/linkedin_icon.svg'
-import location_icon from '../../assets/location_icon.svg'
 
 const Contact = () => {
 
@@ -67,20 +64,20 @@ const Contact = () => {
                         {/* Email link - opens default mail client */}
                         <div className="contact-detail">
                             <a href={`mailto:${contactEmail}`} className="contact-link">
-                                <img src={mail_icon} alt="Mail" />
+                                <img src={'/mail_icon.svg'} alt="Mail" />
                                 <p>{contactEmail}</p>
                             </a>
                         </div>
                         {/* LinkedIn link */}
                         <div className="contact-detail">
                             <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" className="contact-link">
-                                <img src={linkedin_icon} alt='LinkedIn' className='linkedin-img' />
-                                <p>{linkedinUrl}</p>
+                                <img src={'/linkedin_icon.svg'} alt='LinkedIn' className='linkedin-img' />
+                                <p>{linkedinUrl.replace('https://', '').replace('www.', '')}</p>
                             </a>
                         </div>
                         {/* Location */}
                         <div className="contact-detail">
-                            <img src={location_icon} alt='Location'/> 
+                            <img src={'/location_icon.svg'} alt='Location' />
                             <p>{location}</p>
                         </div>
                     </div>

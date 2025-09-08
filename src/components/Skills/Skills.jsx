@@ -20,6 +20,12 @@ const Skills = () => {
       </div>
       {/* Skills Container */}
       <div className="skills-list">
+        {/* Introduction Section */}
+        <section className="skill-section">
+          <p>
+            I am specializing in <strong>full-stack development</strong> and have a strong interest in <strong>big data</strong> technologies. My focus is on creating scalable, modern web solutions that are technically strong and user-friendly.
+          </p>
+        </section>
         {/* Technical Skills Section */}
         <section className="skill-section">
           <h2>Technical Skills I’m Learning</h2>

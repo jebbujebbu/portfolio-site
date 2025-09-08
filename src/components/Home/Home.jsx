@@ -2,13 +2,12 @@ import React from 'react'
 // Import Link component for navigation without page reload
 import { Link } from 'react-router-dom';
 import './Home.css'
-import profile_img from '../../assets/profile_img.png'
 
 const Home = () => {
   return (
     <div className='home'>
         {/* Profile Picture */}
-        <img src={profile_img} alt='Profile' className='home-img' />
+    <img src={'/profile_img.png'} alt='Profile' className='home-img' />
         {/* SVG gradient title */}
         <div className="home-title">
           <svg width="100%" height="80" viewBox="0 0 600 80" xmlns="http://www.w3.org/2000/svg" style={{ display: 'block' }}>

@@ -1,9 +1,6 @@
 import React, { useState, useEffect, useRef  } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css'
-import logo_img from '../../assets/logo_img.png' 
-import menu_open_icon from '../../assets/menu_open_icon.svg'
-import menu_close_icon from '../../assets/menu_close_icon.svg'
 
 const Navbar = () => {
 
@@ -52,11 +49,11 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       {/* Logo linking to home */}
-      <Link to="/"><img  src={logo_img} alt='logo'/></Link>
+      <Link to="/"><img src={'/logo_img.png'} alt='logo'/></Link>
       {/* Navigation menu */}
       <ul ref={menuRef} className={`nav-menu ${menuOpen ? 'active' : ''} ${hidden ? 'hidden' : ''}`}>
         {/* Close menu button */}
-        <img src={menu_close_icon} alt='Close Menu' className='menu-close' onClick={closeMenu}/>
+        <img src={'/menu_close_icon.png'} alt='Close Menu' className='menu-close' onClick={closeMenu}/>
         {/* Navigation links */}
         <li className="nav-item"><Link to="/" onClick={closeMenu}>Home</Link></li>
         <li className="nav-item"><Link to="/about" onClick={closeMenu}>About</Link></li>
@@ -65,7 +62,7 @@ const Navbar = () => {
         <li className="nav-item"><Link to="/contact" onClick={closeMenu}>Contact</Link></li>
       </ul>
       {/* Hamburger menu icon (only shows when menu is closed) */}
-      <img src={menu_open_icon} alt='Open Menu' className={`menu-open ${!showOpenIcon ? 'hidden' : ''}`} onClick={openMenu}/>
+      <img src={'/menu_open_icon.png'} alt='Open Menu' className={`menu-open ${!showOpenIcon ? 'hidden' : ''}`} onClick={openMenu}/>
     </div>
   )
 }

@@ -1,6 +1,5 @@
 import React from 'react'
 import './Portfolio.css'
-import github_icon from '../../assets/github_icon.svg'
 import portfolio_data from '../../assets/portfolio_data'
 
 const Portfolio = () => {
@@ -30,7 +29,7 @@ const Portfolio = () => {
             <p>Click an image to go directly to its GitHub repository.</p>
             <hr />
             {/* GitHub profile link */}
-            <a href={githubUrl} target="_blank" rel="noopener noreferrer"><img src={github_icon} alt='GitHub'/></a>
+            <a href={githubUrl} target="_blank" rel="noopener noreferrer"><img src={'/github_icon.svg'} alt='GitHub'/></a>
         </div>
         {/* Project gallery*/}
         <div className="portfolio-container">
@@ -42,7 +41,7 @@ const Portfolio = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                <img src={work.w_img} alt={work.title || 'Project'} />
+                <img src={work.w_img.startsWith('/') ? work.w_img : `/${work.w_img}`} alt={work.title || 'Project'} />
                 </a>
             ))}
         </div>

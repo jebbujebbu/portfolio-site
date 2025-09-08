@@ -1,13 +1,12 @@
 import React from 'react'
 import './About.css'
-import about_img from '../../assets/about_img.png'
 
 const About = () => {
     return (
         <div className='about'>
             {/* Profile image */}
             <div className="about-img-container">
-                <img src={about_img} alt='Profile' className='about-img' />
+                <img src={'/about_img.png'} alt='Profile' className='about-img' />
             </div>
             {/* SVG gradient title */}
             <div className="about-title">
