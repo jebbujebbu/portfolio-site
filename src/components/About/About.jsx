@@ -29,8 +29,9 @@ const About = () => {
                     <p>I really enjoy learning new things and figuring out how stuff works. When it comes to work, I'm dedicated and detail-oriented. I'm always looking for ways to get better at what I do. I've been told I'm a quick learner, a proactive problem solver, and a nice person to work with.</p>
                 </div>
                 <div className="about-feature-card">
-                    <p>Before starting my IT studies, I worked as a teacher (Finnish, Finnish as a Second Language). My focus was on integration training for adult immigrants.</p>
-                    <p>Through teaching experience, I developed strong communication, problem-solving, teamwork, and organizational skills. By combining these skills with my technical knowledge, I’m able to adapt to new challenges and work effectively in diverse teams.</p>
+                    <p>Before starting my IT studies, I worked as a teacher (Finnish, Finnish as a Second Language), focusing on integration training for adult immigrants. Through this experience, I developed strong communication, problem-solving, teamwork, and organizational skills.</p>
+                    <p>While studying at university, I also worked in various sales and customer service roles. In these jobs, I strengthened my precision, flexibility, patience, and the ability to see situations from different perspectives.</p>
+                    <p>By combining these experiences with my technical knowledge, I’m able to adapt to new challenges, approach problems from multiple angles, and work effectively in diverse teams.</p>
                 </div>
                     <div className="about-feature-card">
                     <p>When I’m not studying, I love exercising and spending time outdoors. I also enjoy reading novels, listening to music, knitting socks, and visiting art museums (the picture was taken in Valencia, Spain).</p>
