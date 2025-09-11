@@ -13,19 +13,19 @@ const Skills = () => {
               <stop offset="100%" stopColor="#d0deeeff" />
             </linearGradient>
           </defs>
-          <text x="50%" y="60" textAnchor="middle" fontSize="65" fontWeight="700" fontFamily="Poppins, Arial, sans-serif" fill="url(#skillsGradient)">
+          <text x="50%" y="60" textAnchor="middle" fontSize="65" fontWeight="600" fontFamily="Poppins, Arial, sans-serif" fill="url(#skillsGradient)">
             My Skills
           </text>
         </svg>
       </div>
+      {/* Introduction */}
+      <div className="skills-para">
+        <p>
+          I am specializing in <span className="highlight">full-stack development</span> and have a strong interest in <span className="highlight">big data</span> technologies. My focus is on creating scalable, modern web solutions that are technically strong and user-friendly.
+        </p>
+      </div>
       {/* Skills Container */}
       <div className="skills-list">
-        {/* Introduction Section */}
-        <section className="skill-section">
-          <p>
-            I am specializing in <strong>full-stack development</strong> and have a strong interest in <strong>big data</strong> technologies. My focus is on creating scalable, modern web solutions that are technically strong and user-friendly.
-          </p>
-        </section>
         {/* Technical Skills Section */}
         <section className="skill-section">
           <h2>Technical Skills I’m Learning</h2>
@@ -42,6 +42,15 @@ const Skills = () => {
             <li><span>Other:</span> Software Project Management, Algorithms, IoT, Big Data, Business Intelligence, Intro to AI/ML</li>
           </ul>
         </section>
+        {/* Certifications Section */}
+        <section className="skill-section">
+          <h2>Certifications</h2>
+          <ul>
+            <li>Cisco Networking Academy: CCNA - Introduction to Networks</li>
+            <li>Cisco Networking Academy: CCNA - Switching, Routing, and Wireless Essentials</li>
+            <li>Fortinet Training Institute: FCF - Introduction to the Threat Landscape 2.0</li>
+          </ul>
+        </section>
         {/* Education Section */}
         <section className="skill-section">
           <h2>Education</h2>
@@ -51,13 +60,27 @@ const Skills = () => {
             <li>Master of Arts, Finnish Language (2014)</li>
           </ul>
         </section>
-        {/* Certifications Section */}
+        {/* Awards and Publications Section */}
         <section className="skill-section">
-          <h2>Certifications</h2>
+          <h2>Awards & Publications</h2>
           <ul>
-            <li>Cisco Networking Academy: CCNA - Introduction to Networks</li>
-            <li>Cisco Networking Academy: CCNA - Switching, Routing, and Wireless Essentials</li>
-            <li>Fortinet Training Institute: FCF - Introduction to the Threat Landscape 2.0</li>
+            <li>
+              <strong>E. A. Saarimaa Foundation Article Award</strong> (14 March 2019) – For contribution to the article 
+              “Lexical Mixing in a Conversation between Old Helsinki Slang Speakers.”
+            </li>
+            <li>
+              <strong>Jarva, Vesa & Mikkonen, Jenni (2018)</strong>. 
+              <a 
+                href="https://jyx.jyu.fi/handle/123456789/58838" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                style={{ textDecoration: 'none', fontStyle: 'italic', color: '#d7a9e4' }}
+              >
+                Lexical Mixing in a Conversation between Old Helsinki Slang Speakers
+              </a>. 
+              In M. Palander, H. Riionheimo & V. Koivisto (Eds.), <em>On the Border of Language and Dialect</em> (pp. 222–252). 
+              Helsinki: Suomalaisen Kirjallisuuden Seura.
+            </li>
           </ul>
         </section>
         {/* Languages Section */}

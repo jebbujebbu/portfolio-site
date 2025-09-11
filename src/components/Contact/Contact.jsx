@@ -45,12 +45,12 @@ const Contact = () => {
             <div className="contact-title">
                 <svg width="100%" height="80" viewBox="0 0 600 80" xmlns="http://www.w3.org/2000/svg" style={{ display: 'block' }}>
                     <defs>
-                        <linearGradient id="contactGradient" x1="0" y1="0" x2="600" y2="0" gradientUnits="userSpaceOnUse">
+                        <linearGradient id="contactGradient" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
                             <stop offset="0%" stopColor="#b923e1" />
                             <stop offset="100%" stopColor="#d0deeeff" />
                         </linearGradient>
                     </defs>
-                    <text x="50%" y="60" textAnchor="middle" fontSize="65" fontWeight="700" fontFamily="Poppins, Arial, sans-serif" fill="url(#contactGradient)">
+                    <text x="50%" y="60" textAnchor="middle" fontSize="65" fontWeight="600" fontFamily="Poppins, Arial, sans-serif" fill="url(#contactGradient)">
                         Get in touch
                     </text>
                 </svg>

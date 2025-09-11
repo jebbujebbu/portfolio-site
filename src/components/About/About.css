@@ -34,7 +34,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     width: 100%;
-    max-width: 900px;
+    /* max-width: 900px; */
     margin: 0 auto;
 }
 .about-feature-card {
@@ -56,6 +56,9 @@
     font-size: 1.15rem;
     line-height: 1.7;
     margin: 0.5rem 0;
+}
+.about-feature-card p .highlight {
+    color: #d7a9e4; 
 }
 
 /* Tablet */
