@@ -50,7 +50,7 @@ const Contact = () => {
                             <stop offset="100%" stopColor="#d0deeeff" />
                         </linearGradient>
                     </defs>
-                    <text x="50%" y="60" textAnchor="middle" fontSize="65" fontWeight="600" fontFamily="Poppins, Arial, sans-serif" fill="url(#contactGradient)">
+                    <text x="50%" y="60" textAnchor="middle" fontSize="40" fontWeight="600" fontFamily="Poppins, Arial, sans-serif" fill="url(#contactGradient)">
                         Get in touch
                     </text>
                 </svg>

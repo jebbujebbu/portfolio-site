@@ -52,8 +52,15 @@
         align-items: center;
         text-align: center;
     }
+    .footer-left p {
+        font-size: 0.8rem; 
+    }
     .footer-links {
         justify-content: center;
         gap: 0.9375rem; 
+    }
+    .footer-links img {
+        width: 2rem;
+        height: 2rem; 
     }
 }

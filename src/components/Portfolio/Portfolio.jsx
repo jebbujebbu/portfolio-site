@@ -18,7 +18,7 @@ const Portfolio = () => {
                         <stop offset="100%" stopColor="#d0deeeff" />
                     </linearGradient>
                 </defs>
-                <text x="50%" y="60" textAnchor="middle" fontSize="65" fontWeight="600" fontFamily="Poppins, Arial, sans-serif" fill="url(#portfolioGradient)">
+                <text x="50%" y="60" textAnchor="middle" fontSize="40" fontWeight="600" fontFamily="Poppins, Arial, sans-serif" fill="url(#portfolioGradient)">
                     My Projects
                 </text>
             </svg>

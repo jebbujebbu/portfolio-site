@@ -1,13 +1,18 @@
 import portfolio_site_img from '../assets/portfolio_site_img.png';
 import time_tracking_db_img from '../assets/time_tracking_db_img.jpg';
 import datafetch_app_img from '../assets/datafetch_app_img.png';
-import task_manager_img from '../assets/task_manager_img.png';
+import lcjs_dashboard_img from '../assets/lcjs_dashboard_img.png';
 // import ecommerce_page_img from '../assets/ecommerce_page_img.png';
 // import rps_game_img from '../assets/rps_game_img.png';
 // import csv_cleaner_img from '../assets/csv_cleaner_img.png';
 import placeholder_img from '../assets/placeholder_img.png';
 
 const portfolio_data = [
+    {
+        title: "LightningChart JS Health Dashboard",
+        w_img: lcjs_dashboard_img,
+        link: "https://github.com/jebbujebbu/lcjs-dashboard"
+    },
     {
         title: "Portfolio Website",
         w_img: portfolio_site_img,
@@ -22,11 +27,6 @@ const portfolio_data = [
         title: "DataFetch App",
         w_img: datafetch_app_img,
         link: "https://github.com/jebbujebbu/datafetch-app"
-    },
-    {
-        title: "Task Manager",
-        w_img: task_manager_img,
-        link: "https://github.com/jebbujebbu/task-manager"
     },
     {
         title: "E-commerce landing page",
