@@ -27,15 +27,16 @@ const Portfolio = () => {
         <div className="portfolio-para">
             <p>
                 I have worked on many projects through my studies — for example, a <span className="highlight">booking system for summer cottages</span>, 
-                a <span className="highlight">recipe app</span>, and <span className="highlight">data analysis of IT job markets in North Savo vs. Finland</span>. 
+                a <span className="highlight">recipe app</span>, and a <span className="highlight">data analysis of IT job markets in North Savo vs. Finland</span>. 
                 Some of these were team projects, giving me valuable experience in collaboration and 
-                modern development practices.
+                modern development practices. At the moment, I am part of two team projects: a <span className="highlight">Mood Tracker App</span>, and a <span className="highlight">plant care assistant</span> that uses 
+                Raspberry Pi and Azure cloud services. 
             </p>
             <p>
-                Currently, I am part of two team projects: a <span className="highlight">Mood Tracker App</span> and a <span className="highlight">plant care assistant</span> that uses 
-                Raspberry Pi and Azure cloud services. Additionally, I'm upgrading my simple <span className="highlight">Task Manager App</span> into a full-stack application 
-                to practice authentication, user-specific tasks, and cloud integration.
+                I am currently doing my internship at <a href="https://www.lightningchart.com" target="_blank" rel="noopener noreferrer" className="highlight">LightningChart</a>, where I’m gaining hands-on experience in professional software development and 
+                data visualization technologies.
             </p>
+            {/* Additionally, I'm upgrading my simple <span className="highlight">Task Manager App</span> into a full-stack application to practice authentication, user-specific tasks, and cloud integration. */}
             {/* GitHub profile link */}
             <a href={githubUrl} target="_blank" rel="noopener noreferrer"><img src={'/github_icon.svg'} alt='GitHub'/></a>
             <p>Click an image to go directly to its GitHub repository.</p>
