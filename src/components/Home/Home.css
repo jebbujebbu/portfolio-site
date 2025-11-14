@@ -2,16 +2,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
-    max-width: 75rem; 
+    gap: 3rem;
+    width: 100vw;
     margin: 2rem auto; 
     padding: 0 1.5rem; 
 }
 .home-img {
     margin-top: 1rem;
-    width: 12rem;  
-    height: 12rem; 
+    width: 18rem;  
+    height: 18rem; 
     object-fit: cover;
     border-radius: 50%;
     border: 0.125rem solid #b923e1;
@@ -24,11 +23,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.75rem; 
+    gap: 1rem; 
     width: 90%;
 }
 .home p {
-    font-size: 1rem; 
+    font-size: 1.25rem; 
     text-align: center;
     color: #ebebeb;
 }
@@ -36,7 +35,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.5rem; 
+    gap: 2rem; 
     font-weight: 500;
 }
 .home-connect, 
@@ -47,7 +46,7 @@
 .home-resume a {
     display: inline-block;
     text-decoration: none;
-    font-size: 1rem; 
+    font-size: 1.25rem; 
     color: #b923e1;
     padding: 1.25rem 2.5rem; 
     border-radius: 3.125rem; 
@@ -117,7 +116,7 @@
     gap: 1rem; 
   }
   .home-title text {
-      font-size: 60px; 
+    font-size: 60px; 
   }
   .home p {
     width: 90%;
@@ -131,6 +130,10 @@
   .home-resume {
     padding: 1.125rem; 
     max-width: 17.5rem; 
+  }
+  .home-connect a, 
+  .home-resume a {
+    font-size: 1rem; 
   }
   .home-connect a {
     padding: 1rem 2rem; 

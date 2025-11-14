@@ -11,7 +11,7 @@ const portfolio_data = [
     {
         title: "LightningChart JS Health Dashboard",
         w_img: lcjs_dashboard_img,
-        link: "https://github.com/jebbujebbu/lcjs-dashboard"
+        link: "https://github.com/jebbujebbu/lcjs-wellness-dashboard"
     },
     {
         title: "C# WPF Weather Dashboard",

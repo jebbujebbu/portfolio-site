@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Home from './components/Home/Home'
 import About from './components/About/About'
@@ -13,17 +14,20 @@ import ScrollToTop from './components/ScrollToTop'
 const App = () => {
   return (
     <Router>
+      <div className="app-layout"> 
       <Navbar />
       <ScrollToTop />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        {/* <Route path="/experience" element={<Experience />} /> */}
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <main className="page">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </main>
       <Footer />
+    </div>  
     </Router>
   )
 }

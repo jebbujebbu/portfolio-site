@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     max-width: 75rem; 
-    margin: 2.5rem auto; 
+    margin: 1.5rem auto; 
     padding: 0 1.25rem; 
 }
 .footer-content {
@@ -12,13 +12,13 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin-bottom: 0.625rem; 
 }
 .footer-left {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     color: #ebebeb;
+    margin-right: 2rem;
 }
 .footer-right {
     display: flex;
@@ -27,7 +27,7 @@
 }
 .footer-links {
     display: flex;
-    gap: 0.625rem; 
+    gap: 2rem; 
 }
 .footer-links img {
     width: 2.5rem;
@@ -51,13 +51,14 @@
     .footer-right {
         align-items: center;
         text-align: center;
+        margin-right: 0;
     }
     .footer-left p {
-        font-size: 0.8rem; 
+        font-size: 1rem; 
     }
     .footer-links {
         justify-content: center;
-        gap: 0.9375rem; 
+        gap: 1rem; 
     }
     .footer-links img {
         width: 2rem;

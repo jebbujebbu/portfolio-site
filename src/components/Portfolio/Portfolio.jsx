@@ -23,7 +23,9 @@ const Portfolio = () => {
                 </text>
             </svg>
         </div>
-        {/* Description */}
+        <div className="portfolio-img">
+            <a href={githubUrl} target="_blank" rel="noopener noreferrer"><img src={'/github_icon.svg'} alt='GitHub'/></a>
+        </div>
         <div className="portfolio-para">
             <p>
                 I have worked on many projects through my studies — for example, a <span className="highlight">booking system for summer cottages</span>, 
@@ -37,9 +39,7 @@ const Portfolio = () => {
                 data visualization technologies.
             </p>
             {/* Additionally, I'm upgrading my simple <span className="highlight">Task Manager App</span> into a full-stack application to practice authentication, user-specific tasks, and cloud integration. */}
-            {/* GitHub profile link */}
-            <a href={githubUrl} target="_blank" rel="noopener noreferrer"><img src={'/github_icon.svg'} alt='GitHub'/></a>
-            <p>Click an image to go directly to its GitHub repository.</p>
+            <p className="repo-para">Click an image to go directly to its GitHub repository.</p>
         </div>
         {/* Project gallery*/}
         <div className="portfolio-container">
