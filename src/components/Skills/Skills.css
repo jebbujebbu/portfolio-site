@@ -1,12 +1,12 @@
 .skills {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    max-width: 75rem;
-    margin: 2rem auto;
-    padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 75rem;
+  margin: 1.5rem auto;
+  padding: 0 1.5rem;
 }
 .skills-title {
   position: relative;
@@ -14,19 +14,19 @@
   overflow: visible; 
 }
 .skills-para {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    max-width: 900px;
-    margin-bottom: 1.5rem;
-    font-size: 1.25rem; 
-    line-height: 1.5;
-    color: #ebebeb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 900px;
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem; 
+  line-height: 1.5;
+  color: #ebebeb;
 }
 .skills-para p .highlight {
-    color: #d7a9e4; 
+  color: #d7a9e4; 
 }
 .skills-list {
   max-width: 900px;
@@ -44,7 +44,7 @@
   margin-bottom: 0.5rem; 
 }
 .skill-section:hover {
-  box-shadow: 0 0 25px rgba(185, 35, 225, 0.4);
+box-shadow: 0 0 25px rgba(185, 35, 225, 0.4); 
 }
 .skill-section h2 {
   color: #a73bc5;
@@ -61,7 +61,7 @@
   color: #dddbdb;
 }
 .skill-section ul li span {
-  font-weight: 800;
+font-weight: 800; 
 }
 
 /* Tablet */

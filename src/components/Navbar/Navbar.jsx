@@ -49,11 +49,11 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       {/* Logo linking to home */}
-      <Link to="/"><img src={'/logo_img.png'} alt='logo'/></Link>
+      <Link to="/"><img src={'/assets/logo_img.png'} alt='logo'/></Link>
       {/* Navigation menu */}
       <ul ref={menuRef} className={`nav-menu ${menuOpen ? 'active' : ''} ${hidden ? 'hidden' : ''}`}>
         {/* Close menu button */}
-        <img src={'/menu_close_icon.svg'} alt='Close Menu' className='menu-close' onClick={closeMenu}/>
+        <img src={'/assets/menu_close_icon.svg'} alt='Close Menu' className='menu-close' onClick={closeMenu}/>
         {/* Navigation links */}
         <li className="nav-item"><Link to="/" onClick={closeMenu}>Home</Link></li>
         <li className="nav-item"><Link to="/about" onClick={closeMenu}>About</Link></li>
@@ -62,7 +62,7 @@ const Navbar = () => {
         <li className="nav-item"><Link to="/contact" onClick={closeMenu}>Contact</Link></li>
       </ul>
       {/* Hamburger menu icon (only shows when menu is closed) */}
-      <img src={'/menu_open_icon.svg'} alt='Open Menu' className={`menu-open ${!showOpenIcon ? 'hidden' : ''}`} onClick={openMenu}/>
+      <img src={'/assets/menu_open_icon.svg'} alt='Open Menu' className={`menu-open ${!showOpenIcon ? 'hidden' : ''}`} onClick={openMenu}/>
     </div>
   )
 }

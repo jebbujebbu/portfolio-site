@@ -19,11 +19,11 @@ const Footer = () => {
                 <div className="footer-right">
                     <div className="footer-links">
                         {/* Email link - opens default mail client */}
-                        <a href={`mailto:${contactEmail}`} target="blank" rel="noopener noreferrer"><img src={'/mail_icon.svg'} alt='Email'/></a>
+                        <a href={`mailto:${contactEmail}`} target="blank" rel="noopener noreferrer"><img src={'/assets/mail_icon.svg'} alt='Email'/></a>
                         {/* LinkedIn link */}
-                        <a href={linkedinUrl} target="blank" rel="noopener noreferrer"><img src={'/linkedin_icon.svg'} alt='LinkedIn'/></a>
+                        <a href={linkedinUrl} target="blank" rel="noopener noreferrer"><img src={'/assets/linkedin_icon.svg'} alt='LinkedIn'/></a>
                         {/* GitHub link */}
-                        <a href={githubUrl} target="_blank" rel="noopener noreferrer"><img src={'/github_icon.svg'} alt='GitHub'/></a>
+                        <a href={githubUrl} target="_blank" rel="noopener noreferrer"><img src={'/assets/github_icon.svg'} alt='GitHub'/></a>
                     </div>
                 </div>
             </div>

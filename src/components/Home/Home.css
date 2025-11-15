@@ -1,71 +1,70 @@
 .home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 3rem;
-    width: 100vw;
-    margin: 2rem auto; 
-    padding: 0 1.5rem; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100vw;
+  margin: 2rem auto; 
+  padding: 0 1.5rem; 
 }
 .home-img {
-    margin-top: 1rem;
-    width: 18rem;  
-    height: 18rem; 
-    object-fit: cover;
-    border-radius: 50%;
-    border: 0.125rem solid #b923e1;
-    box-shadow:
-        0 0 10px rgba(185, 35, 225, 0.7),  
-        0 0 20px rgba(185, 35, 225, 0.6),  
-        0 0 40px rgba(185, 35, 225, 0.5); 
+  width: 17rem;  
+  height: 17rem; 
+  object-fit: cover;
+  border-radius: 50%;
+  border: 0.125rem solid #b923e1;
+  box-shadow:
+      0 0 10px rgba(185, 35, 225, 0.7),  
+      0 0 20px rgba(185, 35, 225, 0.6),  
+      0 0 40px rgba(185, 35, 225, 0.5); 
 }
 .home-intro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem; 
-    width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem; 
+  width: 90%;
 }
 .home p {
-    font-size: 1.25rem; 
-    text-align: center;
-    color: #ebebeb;
+  font-size: 1.25rem; 
+  text-align: center;
+  color: #ebebeb;
 }
 .home-action {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem; 
-    font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem; 
+  font-weight: 500;
 }
 .home-connect, 
 .home-resume {
-    display: inline-block;  
+  display: inline-block;  
 }
 .home-connect a, 
 .home-resume a {
-    display: inline-block;
-    text-decoration: none;
-    font-size: 1.25rem; 
-    color: #b923e1;
-    padding: 1.25rem 2.5rem; 
-    border-radius: 3.125rem; 
-    border: 0.125rem solid #b923e1; 
-    cursor: pointer;
-    transition: transform 0.5s ease;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.25rem; 
+  color: #b923e1;
+  padding: 1.25rem 2.5rem; 
+  border-radius: 3.125rem; 
+  border: 0.125rem solid #b923e1; 
+  cursor: pointer;
+  transition: transform 0.5s ease;
 }
 .home-connect a:hover, 
 .home-resume a:hover {
-    color: #b923e1;
-    border-color: transparent;
-    box-shadow:
-      0 0 10px rgba(185, 35, 225, 0.7),  
-      0 0 20px rgba(185, 35, 225, 0.6),   
-      0 0 40px rgba(185, 35, 225, 0.5); 
+  color: #b923e1;
+  border-color: transparent;
+  box-shadow:
+    0 0 10px rgba(185, 35, 225, 0.7),  
+    0 0 20px rgba(185, 35, 225, 0.6),   
+    0 0 40px rgba(185, 35, 225, 0.5); 
 }
 .home-connect:hover, 
 .home-resume:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 /* Tablet */

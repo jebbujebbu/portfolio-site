@@ -64,20 +64,20 @@ const Contact = () => {
                         {/* Email link - opens default mail client */}
                         <div className="contact-detail">
                             <a href={`mailto:${contactEmail}`} className="contact-link">
-                                <img src={'/mail_icon.svg'} alt="Mail" />
+                                <img src={'/assets/mail_icon.svg'} alt="Mail" />
                                 <p>{contactEmail}</p>
                             </a>
                         </div>
                         {/* LinkedIn link */}
                         <div className="contact-detail">
                             <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" className="contact-link">
-                                <img src={'/linkedin_icon.svg'} alt='LinkedIn' className='linkedin-img' />
+                                <img src={'/assets/linkedin_icon.svg'} alt='LinkedIn' className='linkedin-img' />
                                 <p>{linkedinUrl.replace('https://', '').replace('www.', '')}</p>
                             </a>
                         </div>
                         {/* Location */}
                         <div className="contact-detail">
-                            <img src={'/location_icon.svg'} alt='Location' />
+                            <img src={'/assets/location_icon.svg'} alt='Location' />
                             <p>{location}</p>
                         </div>
                     </div>

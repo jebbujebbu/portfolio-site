@@ -24,7 +24,7 @@ const Portfolio = () => {
             </svg>
         </div>
         <div className="portfolio-img">
-            <a href={githubUrl} target="_blank" rel="noopener noreferrer"><img src={'/github_icon.svg'} alt='GitHub'/></a>
+            <a href={githubUrl} target="_blank" rel="noopener noreferrer"><img src={'/assets/github_icon.svg'} alt='GitHub'/></a>
         </div>
         <div className="portfolio-para">
             <p>

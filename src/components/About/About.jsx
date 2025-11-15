@@ -13,7 +13,7 @@ const About = () => {
                             <stop offset="100%" stopColor="#d0deeeff" />
                         </linearGradient>
                     </defs>
-                    <text x="50%" y="60" textAnchor="middle" fontSize="40" fontWeight="600" fontFamily="Poppins, Arial, sans-serif" fill="url(#aboutGradient)">
+                    <text x="50%" y="60" textAnchor="middle" fontSize="40" fontWeight="600" fontFamily="Poppins, Arial, sans-serif" fill="url(#aboutGradient)" stroke="#2b06308e" strokeWidth="3" paintOrder="stroke" >
                         About Me
                     </text>
                 </svg>
