@@ -1,5 +1,20 @@
 const portfolio_data = [
     {
+        title: "3D Slicer with LiDAR Data",
+        w_img: '/assets/3d_slicer.png',
+        link: "https://lightningchart.com/js-charts/interactive-examples/examples/lcjs-example-1710-3dSlicer.html"   
+    },
+    {
+        title: "3D Time Series",
+        w_img: '/assets/3d_time_series.png',
+        link: "https://lightningchart.com/js-charts/interactive-examples/examples/lcjs-example-1709-3dTimeSeries.html"   
+    },
+    {
+        title: "Scrolling Heatmap with Max Aggregation",
+        w_img: '/assets/scrolling_heatmap_aggregation.png',
+        link: "https://lightningchart.com/js-charts/interactive-examples/examples/lcjs-example-1708-scrollingHeatmapAggregation.html"   
+    },
+    {
         title: "LightningChart JS Car Analytics Dashboard",
         w_img: '/assets/lcjs_parallel_img.png',
         link: "https://github.com/jebbujebbu/lcjs-car-analytics-dashboard"
@@ -29,30 +44,11 @@ const portfolio_data = [
         w_img: '/assets/datafetch_app_img.png',
         link: "https://github.com/jebbujebbu/datafetch-app"
     },
-    // {       
-    //     title: "Rock, Paper, Scissors Game",
-    //     // w_img: rps_game_img,
-    //     w_img: placeholder_img,
-    //     // link: "https://github.com/jebbujebbu/rock-paper-scissors-game"
-    //     link: "https://github.com/jebbujebbu"
-    // },
-    {
-        title: "CSV Cleaner",
-        // w_img: csv_cleaner_img,
-        w_img: '/assets/placeholder_img.png',
-        // link: "https://github.com/jebbujebbu/csv-cleaner"
-        link: "https://github.com/jebbujebbu"   
-    },
-    {
-        title: "placeholder project",
-        w_img: '/assets/placeholder_img.png',
-        link: "https://github.com/jebbujebbu"   
-    },
-    {
-        title: "placeholder project",
-        w_img: '/assets/placeholder_img.png',
-        link: "https://github.com/jebbujebbu"   
-    }
+    // {
+    //     title: "placeholder project",
+    //     w_img: '/assets/placeholder_img.png',
+    //     link: "https://github.com/jebbujebbu"   
+    // }
 ]
 
 export default portfolio_data;
