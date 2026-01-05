@@ -1,23 +1,24 @@
 const portfolio_data = [
     {
-        title: "3D Slicer with LiDAR Data",
+        title: "LightningChart JS 3D Slicer with LiDAR Data",
         w_img: '/assets/3d_slicer.png',
         link: "https://lightningchart.com/js-charts/interactive-examples/examples/lcjs-example-1710-3dSlicer.html"   
     },
     {
-        title: "3D Time Series",
+        title: "LightningChart JS 3D Time Series",
         w_img: '/assets/3d_time_series.png',
         link: "https://lightningchart.com/js-charts/interactive-examples/examples/lcjs-example-1709-3dTimeSeries.html"   
     },
     {
-        title: "Scrolling Heatmap with Max Aggregation",
+        title: "LightningChart JS Scrolling Heatmap with Max Aggregation",
         w_img: '/assets/scrolling_heatmap_aggregation.png',
         link: "https://lightningchart.com/js-charts/interactive-examples/examples/lcjs-example-1708-scrollingHeatmapAggregation.html"   
     },
     {
         title: "LightningChart JS Car Analytics Dashboard",
         w_img: '/assets/lcjs_parallel_img.png',
-        link: "https://github.com/jebbujebbu/lcjs-car-analytics-dashboard"
+        link: "https://lightningchart.com/js-charts/interactive-examples/examples/lcjs-example-1707-parallelCoordChartDashboard.html"
+        // link: "https://github.com/jebbujebbu/lcjs-car-analytics-dashboard"
     },
     {
         title: "C# WPF Weather Dashboard",
